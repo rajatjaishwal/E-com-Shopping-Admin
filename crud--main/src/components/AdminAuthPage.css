@@ -1,0 +1,72 @@
+.admin-auth-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .back-arrow {
+    font-size: 1.2rem;
+    color: #007bff;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .back-arrow:hover {
+    color: #0056b3;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #007bff;
+    padding-bottom: 2rem;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .auth-input {
+    width: 300px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .password-container {
+    position: relative;
+    width: 300px;
+  }
+  
+  .eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .auth-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .auth-button:hover {
+    background-color: #0056b3;
+  }
+  

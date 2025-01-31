@@ -1,0 +1,40 @@
+/* UpdateUser.css */
+.full-screen-center {
+    display: flex;
+    
+    background-color: #f8f9fa; /* Light gray background */
+    justify-content: center;
+    
+}
+
+.form-container {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mb-2 {
+    margin-bottom: 0px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 6rem ;
+    gap: 2rem;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}

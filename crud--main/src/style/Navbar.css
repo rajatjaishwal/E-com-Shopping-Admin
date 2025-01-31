@@ -1,0 +1,128 @@
+/* General Navbar Styling */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #149be4;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.brand {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.navbar {
+  display: flex;
+  gap: 15px;
+}
+
+.navbar a {
+  color: #fff;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #f1c40f;
+}
+
+/* Search Bar Styling */
+.search-bar {
+  position: relative;
+}
+
+.search-bar input {
+  padding: 5px 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  width: 200px;
+}
+
+.search-bar input:focus {
+  border: 2px solid #f1c40f;
+}
+
+/* Cart Button Styling */
+.cart button {
+  background-color: #1c93d3;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.cart button:hover {
+  background-color: #28a3bc;
+}
+
+.cart span {
+  font-size: 1rem;
+  color: #fff;
+}
+
+/* Category Filter Styling for /shop page */
+.nav-bar-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 20px;
+  background-color: #333;
+}
+
+.items {
+  color: #fff;
+  font-size: 1rem;
+  margin-right: 15px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.items:hover {
+  color: #f1c40f;
+}
+
+/* Sticky top navbar adjustment */
+.sticky-top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* Mobile View: Responsive Navbar */
+@media (max-width: 768px) {
+  .nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .search-bar input {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .cart button {
+    margin-top: 10px;
+  }
+}
+.logout{
+    background-color: rgb(27, 205, 27);
+}
